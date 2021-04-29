@@ -1,0 +1,40 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "119.3.188.124",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "huawei-cloud-pg",
+      "database": "db",
+      "username": "dba",
+      "password": "901004az."
+    },
+    {
+      "previewLimit": 50,
+      "server": "119.3.188.124",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "huawei-cloud-pg:postgres",
+      "database": "postgres",
+      "username": "dba",
+      "password": "901004az."
+    },
+    {
+      "previewLimit": 50,
+      "server": "119.3.188.124",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "huawei-pg:kvmgr",
+      "database": "kvmgr",
+      "username": "dba",
+      "password": "901004az."
+    }
+  ]
+}

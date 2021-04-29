@@ -1,0 +1,15 @@
+{
+  "name": "tvmgr",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependenciesMeta": {
+    "ts-node-dev@1.1.6": {
+      "unplugged": true
+    }
+  }
+}
